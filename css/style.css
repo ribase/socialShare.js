@@ -1,0 +1,86 @@
+#socialShare {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#socialShare > div {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+#socialShare > div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#socialShare > div a:after {
+    content: ' ';
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#socialShare > div a.whatsapp_icon:after {
+    background-image: url("icons/whatsapp.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.facebook_icon:after {
+    background-image: url("icons/facebook.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.twitter_icon:after {
+    background-image: url("icons/twitter.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.google_icon:after {
+    background-image: url("icons/google_plus.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.pinterest_icon:after {
+    background-image: url("icons/pinterest.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.linkedin_icon:after {
+    background-image: url("icons/linkedin.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.reddit_icon:after {
+    background-image: url("icons/reddit.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div a.tumblr_icon:after {
+    background-image: url("icons/tumblr.min.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#socialShare > div.google_container {
+    background-color: #dd4b39;
+}
+#socialShare > div.facebook_container {
+    background-color: #3b5998;
+}
+#socialShare > div.twitter_container {
+    background-color: #55acee;
+}
+#socialShare > div.whatsapp_container {
+    background-color: #4dc247;
+}
+#socialShare > div.pinterest_container {
+    background-color: #cb2027;
+}
+#socialShare > div.linkedin_container {
+    background-color: #007bb5;
+}
+#socialShare > div.reddit_container {
+    background-color: #ff4500;
+}
+#socialShare > div.tumblr_container {
+    background-color: #32506d;
+}
